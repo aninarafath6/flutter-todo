@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:todo/screens/home_screen.dart';
 import 'package:todo/screens/todo_screen.dart';
 
 void main() {
@@ -14,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Todo',
       theme: ThemeData(
         primarySwatch: Colors.orange,
-        scaffoldBackgroundColor: Color(0xFFf8edeb),
+        scaffoldBackgroundColor: Color(0xFFfff2e1),
       ),
-      home: TodoScreen(),
+      home: HomeScreen(),
     );
   }
 }
